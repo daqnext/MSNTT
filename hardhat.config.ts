@@ -13,10 +13,10 @@ const config: HardhatUserConfig = {
 
   networks: {
     ganache: {
-      url: `HTTP://127.0.0.1:5845`,
+      url: `HTTP://127.0.0.1:8545`,
       //chainId: 1337,
       //accounts: [`0x${DEPLOYER_PRIVATE_KEY}`],
-      accounts: [`0xb5235cdadb8a5d7ef3e0bdb6a97355d93b8a78cdbe54a49dd6f5a765fc1ea776`], 
+      accounts: [`0xc1291cf81e7e2ab7256c23cb8299689c80f8b2a432f039dab3f11222df03c6f4`], 
     },
     
   },
