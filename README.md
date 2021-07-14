@@ -1,7 +1,5 @@
 ![CI](https://github.com/EthWorks/Waffle/workflows/CI/badge.svg)
-[![](https://img.shields.io/npm/v/ethereum-waffle.svg)](https://www.npmjs.com/package/ethereum-waffle)
-
-![Ethereum Waffle](https://raw.githubusercontent.com/EthWorks/Waffle/master/docs/source/logo.png)
+[![](https://img.shields.io/npm/v/ethereum-waffle.svg)](https://www.npmjs.com/package/ethereum-waffle
 
 # MSNTT
 meson test-net tokens
