@@ -4,6 +4,7 @@
   "description": "meson test-net tokens",
   "main": "index.js",
   "scripts": {
+    "build":"waffle",
     "test": "ts-mocha ./test/*.ts"
   },
   "repository": {
