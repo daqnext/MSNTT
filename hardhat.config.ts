@@ -20,12 +20,10 @@ const config: HardhatUserConfig = {
     },
     
   },
-
+  
   namedAccounts: {
     deployer: 0,
   },
-
-
 
 };
 export default config;
