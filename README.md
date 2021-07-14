@@ -2,14 +2,14 @@
 meson test-net tokens
 
 ### MSNTT usage:
-#### governance
-#### airdrop
-#### pre-mainnet test
+#### 1.governance
+#### 2.airdrop
+#### 3.pre-mainnet test
 
-### build & test 
+# build & test 
 
-#### build contract
-##### ``` npm run build ```
+### build contract
+#### ``` npm run build ```
 
-#### run test
-##### ``` npm run test ```
+### run test
+#### ``` npm run test ```
