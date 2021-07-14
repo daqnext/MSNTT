@@ -11,5 +11,14 @@ meson test-net tokens
 ### build contract
 #### ``` npm run build ```
 
-### run test
+### run test (plese run build before test)
 #### ``` npm run test ```
+
+
+# deploy 
+
+### config your rpc endpoint
+#### ``` inside hardhat.config.ts ```
+
+### make deployment
+#### ``` npm run deploy_ganache ```
