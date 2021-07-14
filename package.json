@@ -1,0 +1,27 @@
+{
+  "name": "msntt",
+  "version": "1.0.0",
+  "description": "meson test-net tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha ./test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daqnext/MSNTT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daqnext/MSNTT/issues"
+  },
+  "homepage": "https://github.com/daqnext/MSNTT#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@types/chai": "^4.2.21",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.3.5"
+  }
+}
