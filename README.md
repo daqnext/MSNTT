@@ -17,8 +17,10 @@ meson test-net tokens
 
 # deploy 
 
-### config your rpc endpoint & your account private key
+- config your rpc endpoint & your account private key
 #### ``` inside hardhat.config.ts ```
 
-### - make local ganache deployment
+- make local ganache deployment
+#### ``` download ganache from https://www.trufflesuite.com/ganache ```
+#### ``` run your local ganache instance```
 #### ``` npm run deploy_ganache ```
