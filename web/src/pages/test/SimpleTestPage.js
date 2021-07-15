@@ -6,6 +6,8 @@ import MSNTT from '../../contract_build/MSNTT.json'
 
 const tokenAddress = "0xA6275c245a3cB1A399714B1e2f2fBcAc80B9199e"
 
+
+ 
 class SimpleTestPage extends React.Component {
 
     
@@ -30,9 +32,10 @@ class SimpleTestPage extends React.Component {
           const contract = new ethers.Contract(tokenAddress, MSNTT.abi, provider)
           try {
             const data = await contract.greet()
-            //notify('success','result',data);
+            //global   notify(a,x,x)
+            window.notify('success',data,'result');
           } catch (err) {
-            //notify('error','result',err);
+            window.notify('error',err,'error');
           }
         }    
       }
@@ -45,7 +48,7 @@ class SimpleTestPage extends React.Component {
             console.log({ provider })
             const signer = provider.getSigner()
             const contract = new ethers.Contract(tokenAddress, MSNTT.abi, signer)
-            const transaction = await contract.setGreeting("bbbbbbb")
+            const transaction = await contract.setGreeting("tttt")
             await transaction.wait()
             this.fetchGreeting()
         }

@@ -22,9 +22,9 @@ class NotifyPage extends React.Component {
 {`
 // function notify(type,content="",title="") type = 'success'|'error'|'info'
 // example:
-notify('success','this is content','this is title');
-notify('error','this is content','this is title');
-notify('info','this is content','this is title');
+window.notify('success','this is content','this is title');
+window.notify('error','this is content','this is title');
+window.notify('info','this is content','this is title');
 
 
 `}

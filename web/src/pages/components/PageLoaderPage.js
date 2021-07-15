@@ -20,8 +20,8 @@ class PageLoaderPage extends React.Component {
 <pre>
 <code className="language-javascript" >
 {`
-showPageLoader() // show page loader
-hidePageloader(); // hide page loader
+window.showPageLoader() // show page loader
+window.hidePageloader(); // hide page loader
 `}
 </code>
 </pre>
