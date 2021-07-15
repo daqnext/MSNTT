@@ -1,7 +1,7 @@
 import {expect, use} from 'chai';
 import {Contract} from 'ethers';
 import {deployContract, MockProvider, solidity} from 'ethereum-waffle';
-import BasicToken from '../build/MSNTT.json';
+import BasicToken from '../web/src/contract_build/MSNTT.json';
 
 use(solidity);
 

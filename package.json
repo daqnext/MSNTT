@@ -6,7 +6,9 @@
   "scripts": {
     "build": "waffle",
     "test": "ts-mocha ./test/*.ts",
-    "deploy_ganache": "hardhat run scripts/deploy_local_ganache.ts --network ganache "
+    "deploy_ganache": "hardhat run scripts/deploy_local_ganache.ts --network ganache ",
+    "build_web":"cd ./web && npm install",
+    "start_web":"cd ./web && npm run start"
   },
   "repository": {
     "type": "git",
