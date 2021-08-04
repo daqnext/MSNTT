@@ -1,3 +1,5 @@
+#deprecated!
+
 # MSNTT
 meson test-net tokens
 
