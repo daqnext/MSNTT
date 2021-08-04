@@ -1,4 +1,4 @@
-#deprecated!
+# Deprecated!
 
 # MSNTT
 meson test-net tokens
